@@ -11,6 +11,7 @@ gem 'require_all'
 gem 'shotgun'
 gem 'json'
 gem 'pry'
+gem 'i18n'
 
 group :test do
   gem 'rspec'

@@ -113,6 +113,7 @@ DEPENDENCIES
   activerecord (= 4.2.5)
   capybara
   database_cleaner!
+  i18n
   json
   pry
   pry-nav
@@ -127,4 +128,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   2.0.1
+   2.0.2
