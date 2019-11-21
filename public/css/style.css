@@ -48,6 +48,7 @@ body {
   border: #E4E4E4 1px solid;
   font-size: 25px;
   padding-left: 15px;
+  box-shadow: -5px 3px 5px -4px rgba(0,0,0,0.39);
 }
 
 .add-todo__btn {
@@ -59,6 +60,7 @@ body {
   border-radius: 10px;
   border: #E854B9 1px solid;
   font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info {
@@ -67,11 +69,6 @@ body {
   font-size: small;
 }
 
-/* @media (min-width: 576px) {
-  .add-todo { 
-    width: 320px;
-  } 
-} */
 
 .list-todo {
   flex: 1 1 0;
@@ -112,6 +109,9 @@ body {
   width: 80%;
   background-color: #965CFF;
   border-radius: 10px;
+  -webkit-box-shadow: -5px 3px 5px -4px rgba(0,0,0,0.39);
+  -moz-box-shadow: -5px 3px 5px -4px rgba(0,0,0,0.39);
+  box-shadow: -5px 3px 5px -4px rgba(0,0,0,0.39);
  
 }
 
@@ -159,6 +159,7 @@ body {
   border: #E854B9 1px solid;
   font-size: 18px;
   margin-right: 10px;
+  box-shadow: -5px 3px 5px -4px rgba(0,0,0,0.39);
 }
 
 
